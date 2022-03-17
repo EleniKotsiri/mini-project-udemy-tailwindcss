@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss tailwind.css -o dist/css/styles.css",    
+    "build": "postcss tailwind.css -o dist/css/styles.css",
     "watch": "postcss -w tailwind.css -o dist/css/styles.css"
   },
   "keywords": [],
@@ -18,6 +18,6 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "tailwindcss-debug-screens": "^2.0.0"
+    "tailwindcss-debug-screens": "^2.2.1"
   }
 }
