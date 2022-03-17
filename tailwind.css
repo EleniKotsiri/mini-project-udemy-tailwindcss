@@ -1,3 +1,18 @@
 @tailwind base;
+/* h1 { text: 5xl }
+h2 { text: 3xl }
+h2 { text: 2xl } */
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+    @apply mb-6 text-5xl;
+    }
+    h2 {
+    @apply mb-3 text-3xl;
+    }
+    h3 {
+    @apply mb-2 text-2xl;
+    }
+}
