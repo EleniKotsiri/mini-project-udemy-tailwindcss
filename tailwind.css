@@ -6,6 +6,9 @@ h2 { text: 2xl } */
 @tailwind utilities;
 
 @layer base {
+    * {
+    @apply font-serif tracking-tight
+    }
     h1 {
     @apply mb-6 text-5xl;
     }

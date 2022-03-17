@@ -575,6 +575,11 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+* {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  letter-spacing: -0.025em
+}
+
 h1 {
   margin-bottom: 1.5rem;
   font-size: 3rem;
