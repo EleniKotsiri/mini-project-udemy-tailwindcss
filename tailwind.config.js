@@ -1,6 +1,9 @@
 module.exports = {
   content: [],
-  purge: [],
+  purge: {
+    enabled: false,
+    content: ['./dist/**/*.html'],
+  },
   darkMode: 'class', // or 'media' or 'false'
   theme: {
     debugScreens: {
