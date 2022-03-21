@@ -1,5 +1,7 @@
 module.exports = {
   content: [],
+  purge: [],
+  darkMode: 'class', // or 'media' or 'false'
   theme: {
     debugScreens: {
       position: ['top', 'left'],
